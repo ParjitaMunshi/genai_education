@@ -1,0 +1,23 @@
+#installation Steps
+
+Step1: Create Virtual Environment
+    -cd path_to_your_project_folder
+    -python -m venv myenv
+    -myenv\Scripts\activate
+
+Step 2: Install Django and other dependencies
+    -pip install django(Install Django)
+    -pip install djangorestframework(Install Django REST Framework:)
+    -pip install channels(Install Channels for WebSocket Support:)
+    -pip install djangorest-framework-simplejwt(Install JWT for Authentication:)
+
+Step 3: Work in Project
+    -django-admin startproject my_project
+    -cd my_project
+    -python manage.py runserver
+
+Step 4: Set Up Django REST Framework
+    
+
+
+
